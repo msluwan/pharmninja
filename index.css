@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+
+
+body{
+    background-color: #3D3B8E;
+
+        
+    }
+}
+
+header{
+    text-align: center;
+    font-family: 'Gabarito','Courier New', Courier, monospace;
+}
+
+nav a{
+    color: darkolivegreen;
+    font-weight: bold;
+}
+
+a{
+    color: blueviolet;
+}
+
+
+label{
+    font-size: 24px;
+}
+
+@media (min-width: 480px){
+
+    label{
+        font-size: 30px;
+        color: chocolate;
+    }
+    
+
+    body {
+        background-color: #B0E298;
+    }
+}
+
+a:hover{
+    color: black;
+}
+
+form{
+    font-family: 'Courier New', Courier, monospace;
+
+}
+
+button{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: darkolivegreen;
+}
+
+.container {display:flex;
+    justify-content: space-around;
+    align-items: flex-end;
+}
+
+@keyframes pulse {
+    from {background-color:#cc0000;}
+    to {background-color: orange;}
+    to {background-color: yellow;}
+    to {background-color: limegreen;}
+    to {background-color: #3D3B8E;}
+    to {background-color: purple;}
+}
+div {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    animation-name:pulse;
+    animation-duration: 4s;
+}
